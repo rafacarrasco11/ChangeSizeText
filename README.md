@@ -31,7 +31,8 @@ Otro aspecto a destacar que he aprendido es saber que para poder Serializar un p
 Para terminar tambien he aprendido el uso de la clase Application y como crear nuestra propia clase Application para guardar ahi ciertos valores.
 Para poder obtener datos de nuestra clase ChangeSizeApplication (hereda de Application) tenemos que hacer un casting al metodo getApplication() que nos devuelve nuestro objeto Application creado en el proyecto.
 Una vez hecho el casting ya podemos extraer los valores con metodos Getters
-''' java
+```
+java
 public class ChangeSizeApplication extends Application {
 
     private User user;
@@ -46,7 +47,7 @@ public class ChangeSizeApplication extends Application {
         return user;
     }
 }
-'''
+```
 
 ### Layout ChangeSizeTextActivity
 ! [Layout ChangeSizeTextActivity](app/img/README_img2.png)
